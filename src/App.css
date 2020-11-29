@@ -1,2 +1,60 @@
+:root {
+  --blue: #586994;
+  --silver: #7d869c;
+  --silver-chalice: #a2abab;
+  --green: #b4c4ae;
+  --pale: #e5e8b6;
+}
+
+body {
+  background-color: var(--blue);
+  color: var(--pale);
+}
+
+h4 {
+  margin: 0;
+}
+
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#time-left {
+  font-size: 6rem;
+  border: 0.5rem solid var(--silver);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.control-length-container {
+  display: flex;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.control-length-container > div:first-child {
+  margin-right: 2rem;
+}
+
+.control-length-container > div {
+  border: 0.5rem solid var(--silver);
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.button-container button {
+  width: 5vh;
 }

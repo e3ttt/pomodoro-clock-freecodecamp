@@ -18,6 +18,26 @@ function App() {
 
   return (
     <div className="App">
+      <div class="control-length-container">
+        <div>
+          <h4>Break Length</h4>
+          <div class="button-container">
+            <button>-</button>
+            <span>5</span>
+            <button>+</button>
+          </div>
+        </div>
+
+        <div>
+          <h4>Session Length</h4>
+          <div class="button-container">
+            <button>-</button>
+            <span>25</span>
+            <button>+</button>
+          </div>
+        </div>
+      </div>
+
       <Clock duration={timeLeft} />
     </div>
   );
