@@ -21,9 +21,10 @@ h4 {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  min-width: 500px;
 }
 
-#time-left {
+#time-left-container {
   font-size: 6rem;
   border: 0.5rem solid var(--silver);
   padding: 2rem;
@@ -49,6 +50,12 @@ h4 {
   align-items: center;
 }
 
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
 .button-container {
   display: flex;
   width: 100%;
@@ -57,4 +64,20 @@ h4 {
 
 .button-container button {
   width: 5vh;
+}
+
+.control-clock-container {
+  border: 0.5rem solid var(--silver);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.control-clock-container > button:first-child {
+  margin-right: 1rem;
+}
+
+#timer-label {
+  font-size: 2rem;
+  text-align: center;
 }

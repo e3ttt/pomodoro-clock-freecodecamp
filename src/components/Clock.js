@@ -8,10 +8,15 @@ const Clock = props => {
   };
 
   return (
-    <div id="time-left">
-      <span>{getMinutes(props.duration).toString().padStart(2, '0')}</span>
-      <span>:</span>
-      <span>{getSeconds(props.duration).toString().padStart(2, '0')}</span>
+    <div
+      id="time-left-container"
+      style={{ color: props.sessionTurn ? '' : '#0f0' }}
+    >
+      <div id="timer-label">{props.sessionTurn ? 'Session' : 'Break'}</div>
+      <div id="time-left">
+        {getMinutes(props.duration).toString().padStart(2, '0')}:
+        {getSeconds(props.duration).toString().padStart(2, '0')}
+      </div>
     </div>
   );
 };
