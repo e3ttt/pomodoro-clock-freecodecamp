@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pomodoro-clock-freecodecamp/static/css/main.37fa14ae.chunk.css",
+    "main.js": "/pomodoro-clock-freecodecamp/static/js/main.b84248f3.chunk.js",
+    "main.js.map": "/pomodoro-clock-freecodecamp/static/js/main.b84248f3.chunk.js.map",
+    "runtime-main.js": "/pomodoro-clock-freecodecamp/static/js/runtime-main.84a47951.js",
+    "runtime-main.js.map": "/pomodoro-clock-freecodecamp/static/js/runtime-main.84a47951.js.map",
+    "static/js/2.1bc9436e.chunk.js": "/pomodoro-clock-freecodecamp/static/js/2.1bc9436e.chunk.js",
+    "static/js/2.1bc9436e.chunk.js.map": "/pomodoro-clock-freecodecamp/static/js/2.1bc9436e.chunk.js.map",
+    "static/js/3.e557e601.chunk.js": "/pomodoro-clock-freecodecamp/static/js/3.e557e601.chunk.js",
+    "static/js/3.e557e601.chunk.js.map": "/pomodoro-clock-freecodecamp/static/js/3.e557e601.chunk.js.map",
+    "index.html": "/pomodoro-clock-freecodecamp/index.html",
+    "static/css/main.37fa14ae.chunk.css.map": "/pomodoro-clock-freecodecamp/static/css/main.37fa14ae.chunk.css.map",
+    "static/js/2.1bc9436e.chunk.js.LICENSE.txt": "/pomodoro-clock-freecodecamp/static/js/2.1bc9436e.chunk.js.LICENSE.txt",
+    "static/media/beep.4b7e3c28.mp3": "/pomodoro-clock-freecodecamp/static/media/beep.4b7e3c28.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84a47951.js",
+    "static/js/2.1bc9436e.chunk.js",
+    "static/css/main.37fa14ae.chunk.css",
+    "static/js/main.b84248f3.chunk.js"
+  ]
+}
